@@ -8,7 +8,7 @@ function Top() {
         <div className="top">
           <div className="top-message">
            <div className="one">
-             <h2>日常をたいせつに</h2>
+             <h2>にちじょうをたいせつに</h2>
            </div>
            <div className="two">
              <h2>Shuhei&nbsp;Komori</h2>

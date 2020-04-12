@@ -63,7 +63,9 @@ const styles = theme => ({
   headerLogo: {
     display: 'flex',
     height: 48,
-  },
+  }
+
+
 });
 
 class ResponsiveDrawer extends React.Component {
@@ -84,7 +86,7 @@ class ResponsiveDrawer extends React.Component {
   
   render() {
     
-    // Material-ui関連
+
     const { classes } = this.props;
     
     const drawer = (
@@ -157,7 +159,7 @@ class ResponsiveDrawer extends React.Component {
             {drawer}
           </Drawer>
         </Hidden> */}
-        <Hidden smDown implementation="css">
+        {/* <Hidden smDown implementation="css">
           <Drawer
             variant="permanent"
             open
@@ -167,7 +169,7 @@ class ResponsiveDrawer extends React.Component {
           >
             {drawer}
           </Drawer>
-        </Hidden>
+        </Hidden> */}
         <main className={classes.content}>
           {this.props.children}
         </main>
