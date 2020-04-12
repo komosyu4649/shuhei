@@ -64,6 +64,10 @@ const styles = theme => ({
     display: 'flex',
     height: 48,
   },
+
+  jss108: {
+    display: none,
+  }
 });
 
 class ResponsiveDrawer extends React.Component {
