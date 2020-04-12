@@ -116,10 +116,11 @@ li {
     width: 100%;
     display: block;
     /* padding: 2% 0; */
+    padding-left: 10%;
 }
 
 .Header li {
-    margin: 0;
+    margin: 2% 0;
     /* background-color: #fff;
     padding: .5% 2%; */
 }
