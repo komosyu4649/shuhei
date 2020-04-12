@@ -24,7 +24,7 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     zIndex: 1,
-    overflow: 'hidden',
+    // overflow: 'hidden',
     position: 'relative',
     display: 'flex',
     width: '100%',
@@ -65,6 +65,7 @@ const styles = theme => ({
     height: 48,
   }
 
+  
 
 });
 
@@ -159,7 +160,7 @@ class ResponsiveDrawer extends React.Component {
             {drawer}
           </Drawer>
         </Hidden> */}
-        {/* <Hidden smDown implementation="css">
+        <Hidden smDown implementation="css">
           <Drawer
             variant="permanent"
             open
@@ -169,7 +170,7 @@ class ResponsiveDrawer extends React.Component {
           >
             {drawer}
           </Drawer>
-        </Hidden> */}
+        </Hidden>
         <main className={classes.content}>
           {this.props.children}
         </main>
