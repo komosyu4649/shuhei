@@ -28,9 +28,7 @@ const styles = theme => ({
     position: 'relative',
     display: 'flex',
     width: '100%',
-    [theme.breakpoints.up('md')]: {
-      display: `none`,
-    },
+    
   },
   appBar: {
     position: 'absolute',
