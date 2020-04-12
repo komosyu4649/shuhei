@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2ddf2fb9533b49f1404a6fad6644a8d",
+    "revision": "efdba52a85c88533e9b573cac920b53d",
     "url": "/shuhei/index.html"
   },
   {
-    "revision": "c1319125e1f55993bbb6",
-    "url": "/shuhei/static/css/main.9069ae76.chunk.css"
+    "revision": "23d859fffd83056232b0",
+    "url": "/shuhei/static/css/main.9adb7018.chunk.css"
   },
   {
     "revision": "48e574ebc96a70c400ef",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shuhei/static/js/2.e940f2ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1319125e1f55993bbb6",
+    "revision": "23d859fffd83056232b0",
     "url": "/shuhei/static/js/main.80a01250.chunk.js"
   },
   {
