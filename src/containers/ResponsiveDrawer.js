@@ -63,10 +63,7 @@ const styles = theme => ({
   headerLogo: {
     display: 'flex',
     height: 48,
-  }
-
-  
-
+  },
 });
 
 class ResponsiveDrawer extends React.Component {
@@ -87,8 +84,8 @@ class ResponsiveDrawer extends React.Component {
   
   render() {
     
-
-    const { classes } = this.props;
+    // Material-ui関連
+    const { classes, theme } = this.props;
     
     const drawer = (
       <div>
