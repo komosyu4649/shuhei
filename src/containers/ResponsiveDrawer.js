@@ -14,19 +14,15 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 
 
-// コンポーネントの準備
 import ResponsiveDrawerListItem from '../components/ResponsiveDrawerListItem';
 
-// 設定値
 const drawerWidth = 240;
 
 const bottomNavigationHeight = 50;
 
-// スタイル
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    // height: '100vh',
     zIndex: 1,
     overflow: 'hidden',
     position: 'relative',
@@ -37,12 +33,11 @@ const styles = theme => ({
     position: 'absolute',
     marginLeft: drawerWidth,
     [theme.breakpoints.up('md')]: {
-      // width: `100%`,
       display: `none`,
     },
   },
   toolBar: {
-    justifyContent: 'space-between', // 中央寄せのため追加
+    justifyContent: 'space-between',
     minHeight: bottomNavigationHeight,
   },
   navIconHide: {
@@ -61,17 +56,10 @@ const styles = theme => ({
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.warn,
-    // padding: theme.spacing.unit * 3,
-    // paddingTop: `calc(${headerNavigationHeight}px)`,
-    // paddingBottom: `calc(${bottomNavigationHeight}px)`,
-    // paddingLeft: 0,
-    // paddingRight: 0,
     [theme.breakpoints.up('md')]: {
-      // paddingBottom: 10,
     },
   },
   
-  // ヘッダーロゴ
   headerLogo: {
     display: 'flex',
     height: 48,
@@ -83,7 +71,6 @@ class ResponsiveDrawer extends React.Component {
     super(props);
     this.state = {
       mobileOpen: false,
-    //   shareDialogOpen: false,
     };
   }
 
@@ -98,17 +85,10 @@ class ResponsiveDrawer extends React.Component {
   render() {
     
     // Material-ui関連
-    const { classes, theme } = this.props;
+    const { classes } = this.props;
     
     const drawer = (
       <div>
-        {/* <List>
-          <ResponsiveDrawerListItem
-            to="/"
-            onClick={this.closeDrawerNav}
-            text="Top"
-          />
-        </List> */}
         <Divider />
         <List>
           <ResponsiveDrawerListItem
@@ -161,7 +141,7 @@ class ResponsiveDrawer extends React.Component {
             </IconButton>
           </Toolbar>
         </AppBar>
-        <Hidden mdUp>
+        {/* <Hidden mdUp>
           <Drawer
             variant="temporary"
             anchor={theme.direction === 'rtl' ? 'right' : 'left'}
@@ -171,12 +151,12 @@ class ResponsiveDrawer extends React.Component {
               paper: classes.drawerPaper,
             }}
             ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
+              keepMounted: true, 
             }}
           >
             {drawer}
           </Drawer>
-        </Hidden>
+        </Hidden> */}
         <Hidden smDown implementation="css">
           <Drawer
             variant="permanent"
@@ -196,11 +176,10 @@ class ResponsiveDrawer extends React.Component {
   }
 }
 
-// Material-ui関連
 ResponsiveDrawer.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired,
 };
 
-// Material-uiのテーマ設定＋Redux設定
+
 export default withStyles(styles, { withTheme: true })(ResponsiveDrawer);
