@@ -165,7 +165,7 @@ header {
 }
 
 .ResponsiveDrawer {
-    display: none;
+    height: 50px;
 }
 
 .MuiToolbar-root {
@@ -179,5 +179,9 @@ header {
 .jss108 {
     display: none;
 }
+
+.MuiDrawer-root {
+    display: none;
+  }
     
 }

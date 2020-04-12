@@ -28,6 +28,9 @@ const styles = theme => ({
     position: 'relative',
     display: 'flex',
     width: '100%',
+    [theme.breakpoints.up('md')]: {
+      display: `none`,
+    },
   },
   appBar: {
     position: 'absolute',
@@ -65,9 +68,7 @@ const styles = theme => ({
     height: 48,
   },
 
-  jss108: {
-    display: 'none',
-  }
+  
 });
 
 class ResponsiveDrawer extends React.Component {
