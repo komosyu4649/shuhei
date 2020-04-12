@@ -147,7 +147,7 @@ class ResponsiveDrawer extends React.Component {
         <Hidden mdUp>
           <Drawer
             variant="temporary"
-            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
+            anchor={ direction === 'rtl' ? 'right' : 'left'}
             open={this.state.mobileOpen}
             onClose={this.closeDrawerNav}
             classes={{
