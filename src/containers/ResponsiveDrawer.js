@@ -24,7 +24,7 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     zIndex: 1,
-    // overflow: 'hidden',
+    overflow: 'hidden',
     position: 'relative',
     display: 'flex',
     width: '100%',
@@ -147,7 +147,7 @@ class ResponsiveDrawer extends React.Component {
         <Hidden mdUp>
           <Drawer
             variant="temporary"
-            anchor={ direction === 'rtl' ? 'right' : 'left'}
+            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
             open={this.state.mobileOpen}
             onClose={this.closeDrawerNav}
             classes={{
