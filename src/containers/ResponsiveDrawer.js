@@ -66,7 +66,7 @@ const styles = theme => ({
   },
 
   jss108: {
-    display: none,
+    display: 'none',
   }
 });
 
