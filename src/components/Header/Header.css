@@ -38,7 +38,7 @@ h1 {
 }
 
 header {
-    box-shadow: none;
+   
 }
 
 .MuiPaper-root ul {
@@ -72,6 +72,11 @@ header {
     background-color:  rgb(247,227,225);
 }
 
+.MuiTypography-root {
+    /* text-align: center;
+    display: inline; */
+}
+
 .MuiListItemText-root {
     width: 80%;
     margin: 20% auto;
@@ -83,9 +88,8 @@ header {
     display: none;
 }
 
-header .MuiPaper-elevation4 {
+.MuiPaper-elevation4 {
     box-shadow: none;
-    display: none;
 }
 
 
@@ -131,6 +135,10 @@ li {
     background-color:  rgb(247,227,225);
 }
 
+.Header a {
+    /* color: rgb(202,151,144); */
+}
+
 .ResponsiveDrawer-content-7 {
     display: flex;
     align-items: center;
@@ -140,7 +148,7 @@ li {
 .ResponsiveDrawer-content-7 li {
     overflow: auto;
     padding: 0;
-    margin: 0 1%;
+    margin: 0 2%;
 }
 
 
