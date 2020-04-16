@@ -14,10 +14,6 @@
     margin: 6% 0 4%;
 }
 
-.work-wrapper {
-    
-}
-
 .work-history {
     margin: 2% 0;
 }
@@ -52,6 +48,10 @@
     line-height: 2;;
 }
 
+.work img {
+    height: 100%;
+}
+
 
 
 
@@ -70,10 +70,6 @@
 
 .work-set br {
     display: none;
-}
-
-.work-wrapper {
-    
 }
 
 .work-history {

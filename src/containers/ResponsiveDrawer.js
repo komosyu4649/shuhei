@@ -87,7 +87,6 @@ class ResponsiveDrawer extends React.Component {
   
   render() {
     
-    // Material-ui関連
     const { classes, theme } = this.props;
     
     const drawer = (
