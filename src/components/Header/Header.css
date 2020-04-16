@@ -90,6 +90,7 @@ header {
 
 .MuiPaper-elevation4 {
     box-shadow: 0;
+    box-shadow: none;
 }
 
 
