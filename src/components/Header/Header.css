@@ -85,6 +85,7 @@ header {
 
 header .MuiPaper-elevation4 {
     box-shadow: none;
+    display: none;
 }
 
 
@@ -139,7 +140,7 @@ li {
 .ResponsiveDrawer-content-7 li {
     overflow: auto;
     padding: 0;
-    margin: 0 2%;
+    margin: 0 1%;
 }
 
 
