@@ -88,7 +88,9 @@ header {
     display: none;
 }
 
-
+.MuiPaper-elevation4 {
+    box-shadow: 0;
+}
 
 
 
