@@ -28,7 +28,6 @@ const styles = theme => ({
     position: 'relative',
     display: 'flex',
     width: '100%',
-    
   },
   appBar: {
     position: 'absolute',
@@ -40,6 +39,7 @@ const styles = theme => ({
   toolBar: {
     justifyContent: 'space-between',
     minHeight: bottomNavigationHeight,
+    boxShadow: 'none'
   },
   navIconHide: {
     [theme.breakpoints.up('md')]: {
@@ -47,9 +47,9 @@ const styles = theme => ({
     },
   },
   toolbar: theme.mixins.toolbar,
+  
   drawerPaper: {
     width: drawerWidth,
-    // height: '100vh',
     [theme.breakpoints.up('md')]: {
       position: 'relative',
     },
