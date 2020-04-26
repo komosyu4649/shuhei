@@ -85,9 +85,11 @@ header {
 
 .MuiTouchRipple-root {
     display: none;
+    box-shadow: none;
 }
 .MuiPaper-elevation4 {
     box-shadow: none;
+    display: none;
 }
 .MuiPaper-elevation4 {
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0), 0px 0px 0px 0px rgba(0,0,0,0), 0px 0px 0px 0px rgba(0,0,0,0);
