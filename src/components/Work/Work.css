@@ -14,6 +14,10 @@
     margin: 6% 0 4%;
 }
 
+.work-set p {
+    text-align: left;
+}
+
 .work-history {
     margin: 2% 0;
 }
@@ -45,7 +49,8 @@
 }
 
 .work-about p {
-    line-height: 2;;
+    line-height: 2;
+    text-align: left;
 }
 
 .work img {
