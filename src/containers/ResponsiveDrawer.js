@@ -24,7 +24,7 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
     zIndex: 1,
-    overflow: 'auto',
+    // overflow: 'auto',
     position: 'relative',
     display: 'flex',
     width: '100%',
